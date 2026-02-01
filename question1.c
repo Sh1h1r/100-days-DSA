@@ -15,9 +15,7 @@ int main(){
 	printf("enter the element to be inserted:");
 	scanf("%d",&element);
 	for(int i = length; i >= pos; i--){
-		if(i == pos){
 			arr[i] = arr[i-1];
-		}
 	}
 	arr[pos - 1] = element;
 	printf("Updated array: ");

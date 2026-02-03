@@ -14,7 +14,9 @@ int main(){
 	scanf("%d",&element);
 	for(int i = 0; i < length; i++){
 		if(arr[i] == element){
-			printf("element found after %d iterations",count);
+			printf("element found after %d iterations\n",count);
+			printf("the index is:%d\n",i)
+			break
 		}
 		else count++;
 	}
